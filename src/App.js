@@ -1,7 +1,9 @@
-
 import React from "react";
-function App() {
- 
-}
-
-export default App;
+import { RouterPage } from "./PageContainer/RouterPage";
+export const App = () => {
+  return (
+    <div>
+      <RouterPage />
+    </div>
+  );
+};
